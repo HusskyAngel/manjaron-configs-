@@ -1,0 +1,8 @@
+
+# problem with dash to dock 
+for i in {1..9}; do gsettings set "org.gnome.shell.keybindings" "switch-to-application-$i" "[]"; done
+
+
+#problem with crow translate 
+
+qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow translateSelection

@@ -1,0 +1,69 @@
+
+cursor_shape block
+shell_integration no-cursor
+# Added by Gogh
+include colors.conf
+
+#clipboard
+map ctrl+shift+c copy_to_clipboard
+map ctrl+shift+c copy_to_clipboard
+
+#scrolling up
+map ctrl+shift+up scroll_line_up
+map ctrl+shift+k scroll_line_up
+
+#scrolling down 
+map ctrl+shift+down scroll_line_down
+map ctrl+shift+j scroll_line_down
+
+#window managment
+map ctrl+shift+enter launch --cwd=current
+
+#movement 
+map ctrl+shift+] next_window
+map ctrl+shift+[ previous_window
+map ctrl+shift+f move_window_forward
+map ctrl+shift+b move_window_backward
+map ctrl+shift+` move_window_to_top
+
+
+map alt+1 first_window
+
+#: Second window
+
+map alt+2 second_window
+
+#: Third window
+
+map alt+3 third_window
+
+#: Fourth window
+
+map alt+4 fourth_window
+
+#: Fifth window
+
+map alt+5 fifth_window
+
+#: Sixth window
+
+map alt+6 sixth_window
+
+#: Seventh window
+
+map alt+7 seventh_window
+
+#: Eight window
+
+map alt+8 eighth_window
+
+#: Ninth window
+
+map alt+9 ninth_window
+
+#: Tenth window
+
+map alt+0 tenth_window
+
+
+
